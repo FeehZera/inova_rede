@@ -1,0 +1,96 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face{
+    font-family: "droid";
+    src: url(font/IDroid.otf), url(font/IDroid\ Bold.otf), url(font/IDroid\ Bold\ Italic.otf), url(font/IDroid\ Italic.otf) format(opentype);
+  }
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+body{
+    background-color: rgb(111, 68, 13);
+}
+header{
+    background-image: linear-gradient(rgb(105, 194, 105), green);
+    color: rgb(217, 217, 217);
+    text-align: center;
+    font-family: Bebas Neue, cursive;
+    cursor: default;
+}
+#cabecalho{
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+header >h1{
+    font-size: 4em;
+    padding: 16px;
+    padding-bottom: 0px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.584);
+}
+h2{
+    margin: 10px;
+    padding: 4px;
+    border: 5px;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(to , green, transparent);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 16px;
+    
+    text-indent: 100px;
+    line-height: 1em;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    height: auto;
+    margin: auto; 
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.522);
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer > p{
+    text-align: center;
+}
+footer >p >a{
+    color: rgba(100, 100, 255, 0.849);
+    text-decoration: none;
+}
+/* merdas feita por mim */
+#video1{
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+#video2{
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+#texto1{
+    text-align: center;
+    margin: auto;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#creditos2 {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+#creditos2 a {
+    display: inline-block;
+    margin: 5px 0;
+}
